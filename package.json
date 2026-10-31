@@ -1,0 +1,36 @@
+{
+  "homepage": "https://RaftFeed.github.io/FYP-Foundation-Web-App",
+  "name": "fyp-foundation-web-app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "chart.js": "^4.5.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "0.487.0",
+    "plotly.js-dist-min": "^3.5.0",
+    "react": "18.3.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "18.3.1",
+    "swiper": "^12.2.0",
+    "tw-animate-css": "1.3.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.12",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "4.7.0",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "4.1.12",
+    "vite": "^6.4.2"
+  }
+}
